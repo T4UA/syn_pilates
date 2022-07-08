@@ -131,3 +131,14 @@ div img {
     display: block;
     margin: auto;
 }
+
+@media(max-width: 650px) {
+    .conteudo-primario-imagem {
+        display: none;
+    }
+
+    .cabecalho-menu {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
